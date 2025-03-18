@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    color: #EEEEEE;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.score-dsp{
+    display: flex;
+    background: black;
+    height: 70px;
+    margin: -10px 0px 10px 0px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#home-score{
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+                                                    
+}
+#away-score{
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+                                                    
+}
+
+.score-add{
+    border: 1px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    opacity: 100%;
+    background: #1B244A;
+    color: #9AABD8;
+    padding: 10px 5px 5px 10px;
+    margin-bottom: 10px;
+}
